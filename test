@@ -1,0 +1,7 @@
+echo "# 20221228myFirstProject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fish-yummy/20221228myFirstProject.git
+git push -u origin main
